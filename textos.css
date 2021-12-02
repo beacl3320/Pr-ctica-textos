@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 30px auto;
+    width: 400px;
+    background-image: linear-gradient(to right, #ccccb283, #75751983), url(assets/paisaje.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 3px 3px 6px black;
+    border-radius: 5px;
+}
+
+.title{
+    border-bottom: 3px solid #f2f2f2;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+.text{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.enlace{
+    display: inline-block;
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-top: 20px;
+    border: 2px solid #f2f2f2;
+    padding: 10px 20px;
+}
